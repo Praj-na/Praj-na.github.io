@@ -2663,7 +2663,10 @@ input, select, textarea {
 		dl dd {
 			margin-left: 2em;
 		}
-
+/* Extra */
+.extra {
+	position: relative;
+}
 /* Actions */
 
 	ul.actions {
