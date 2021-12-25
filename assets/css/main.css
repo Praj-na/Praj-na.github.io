@@ -2612,7 +2612,9 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
+.image:hover:active{
+	transform: rotateY(180deg)
+}
 /* List */
 
 	ol {
