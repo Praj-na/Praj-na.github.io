@@ -2615,6 +2615,11 @@ input, select, textarea {
 .image:hover{
 	transform: scale(.97);
 }
+
+.avatar{
+	position:relative;
+
+}
 /* List */
 
 	ol {
