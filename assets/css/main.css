@@ -3485,6 +3485,10 @@ input, select, textarea {
 
 /* Wrapper (main) */
 
+#sidebar{
+	position: fixed;
+}
+
 	#sidebar + #wrapper {
 		margin-left: 18em;
 	}
