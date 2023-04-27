@@ -62,7 +62,7 @@
 		$('.mu-skill-progress-bar').appear(function() {
 
 		 	$('.mu-html5-bar').LineProgressbar({
-				percentage: 95,
+				percentage: 90,
 				triggerOnce: true
 			});
 
@@ -72,7 +72,7 @@
 			});
 
 			$('.mu-photoshop-bar').LineProgressbar({
-				percentage: 85,
+				percentage: 80,
 				triggerOnce: true
 			});
 
@@ -82,7 +82,7 @@
 			});
 
 			$('.mu-jquery-bar').LineProgressbar({
-				percentage: 55,
+				percentage: 60,
 				triggerOnce: true
 			});
 
