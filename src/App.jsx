@@ -1,13 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
+import { BrowserRouter } from "react-router-dom";
+import { About, Contact, Experice, Feedbacks, Hero, Navbar, 
+  Tech, Works, StarsCanvas } from './components';
+const App = () => {
 
   return (
-    <div>Prajna Portfolio</div>
+    <BrowserRouter>
+    <div className="relative z-0 bg-primary">
+      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <Navbar />
+        <Hero />
+      </div>
+      <About />
+      <Tech />
+      <Works />
+      <Feedbacks />
+    </div>
+    
+    </BrowserRouter>
+
   )
 }
 
