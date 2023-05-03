@@ -16,10 +16,11 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Prajna</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop responsive web applications,<br className='sm:block hidden'/> user interfaces and creative visuals.</p>
+          <button type="button" className={`${styles.Button} violet-gradient`} onClick={() => window.location = './PrajnaResume'}>Download Resume</button>
+        <button type="button" className={`${styles.Button} violet-gradient`} onClick={() => window.location = 'http.google.com'}>Contact Me</button>
         </div>
         </div>
-
-        <ComputersCanvas />
+        
     </section>
   )
 }
